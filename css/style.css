@@ -1,3 +1,7 @@
+body {
+  font-family: "courier new";
+}
+
 h1 {
   text-align: center;
 }
@@ -12,6 +16,7 @@ h2 {
 
 table, th, td {
   border: 1px solid;
+  border-collapse: collapse;
 }
 
 .center, body {
