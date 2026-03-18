@@ -1,23 +1,26 @@
 body {
-  font-family: "courier new";
+	font-family: "courier new";
 }
 
-h1, h2 {
-  text-align: center;
+h1,
+h2 {
+	text-align: center;
 }
 
-
-table, th, td {
-  border: 1px solid;
-  border-collapse: collapse;
+table,
+th,
+td {
+	border: 1px solid;
+	border-collapse: collapse;
 }
 
-body, .center{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+body,
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 #content {
-  width: 50vw;
+	width: clamp(800px, 50vw, 0px);
 }
