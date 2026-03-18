@@ -1,0 +1,25 @@
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+#content {
+  width: 50vw;
+}
+
+table, th, td {
+  border: 1px solid;
+}
+
+.center, body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.par1 {
+  text-align: left;
+}
