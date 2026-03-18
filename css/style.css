@@ -2,29 +2,22 @@ body {
   font-family: "courier new";
 }
 
-h1 {
+h1, h2 {
   text-align: center;
 }
 
-h2 {
-  text-align: center;
-}
-
-#content {
-  width: 50vw;
-}
 
 table, th, td {
   border: 1px solid;
   border-collapse: collapse;
 }
 
-.center, body {
+body, .center{
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.par1 {
-  text-align: left;
+#content {
+  width: 50vw;
 }
