@@ -5,6 +5,10 @@ body {
 h1,
 h2 {
 	text-align: center;
+  background-color: lightblue;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 35px;
 }
 
 table,
