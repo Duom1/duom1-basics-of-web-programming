@@ -3,8 +3,11 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>hello world</title>
+    <title>Cool css</title>
     <link href="css/style.css" rel="stylesheet">
+
+    <link href="https://unpkg.com/tabulator-tables@5.6.0/dist/css/tabulator.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/tabulator-tables@5.6.0/dist/js/tabulator.min.js"></script>
   </head>
   <body>
 
@@ -12,28 +15,19 @@
       <div class="center">
         <p class="headertitle">Hello, world!</p>
         <nav id="navbar">
-          <a href="./index.html" style="text-decoration: underline;">Index</a>
+          <a href="./index.html">Index</a>
           <a href="./elements.html">Elements</a>
           <a href="./formatting.html">Formatting</a>
           <a href="./coolcss.html">Cool css</a>
-          <a href="./tabularexample.html">Tabulator example</a>
+          <a href="./tabularexample.html" style="text-decoration: underline;">Tabulator example</a>
         </nav>
       </div>
     </header>
 
     <main class="center">
       <div id="content">
-        <h1>Index page</h1>
-        <p>hello world</p>
-        <h2>Canvas element</h2>
-        <p>Here is a canvas element with javascript drawing drandom squares on it.</p>
-        <div class="slidecontainer center">
-          Speed
-          <input type="range" min="1" max="1000" value="1000" class="slider" id="intervalSlider">
-        </div>
-        <div class="center">
-          <canvas id="indexCanvas" width="200" height="200"></canvas>
-        </div>
+        <h1>Simple Tabulator Table</h1>
+        <div id="example-table"></div>
       </div>
     </main>
 
@@ -44,6 +38,6 @@
     </footer>
 
   </body>
-  <script src="./src/randomCanvas.js">
+  <script src="./src/tabularexmaple.js">
   </script>
 </html>

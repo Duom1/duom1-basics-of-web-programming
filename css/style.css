@@ -31,6 +31,8 @@ td {
 #navbar a:visited {
 	text-decoration: none;
 	color: blue;
+	margin-right: 20px;
+	margin-left: 20px;
 }
 
 .center {
@@ -84,4 +86,55 @@ video {
 
 .blueback {
 	background-color: LightBlue;
+}
+
+.coolcss {
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: #0f172a; */
+  font-family: Arial, sans-serif;
+}
+
+.mdrbtn {
+  position: relative;
+  padding: 14px 32px;
+  font-size: 16px;
+  color: white;
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.mdrbtn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, #8b5cf6, #6366f1);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: inherit;
+}
+
+.mdrbtn:hover::before {
+  opacity: 1;
+}
+
+.mdrbtn span {
+  position: relative;
+  z-index: 1;
+}
+
+.mdrbtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(99, 102, 241, 0.4);
+}
+
+.mdrbtn:active {
+  transform: scale(0.97);
+  box-shadow: 0 5px 15px rgba(99, 102, 241, 0.3);
 }
